@@ -104,6 +104,8 @@
 | [7.5 LangChain 实现本地 Agent](docs/C7/5.%20使用%20LangChain%20实现本地%20Agent.md)                            | LangChain + 本地 Agent      | ✅   |
 | [7.6 LlamaIndex 实现本地 Agent](docs/C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md)                          | LlamaIndex + 本地 Agent     | ✅   |
 | [7.7 DeepSeek R1 + Ollama 本地 RAG](docs/C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md) | DeepSeek R1 + 本地 RAG      | ✅   |
+| [7.8 在 Cherry Studio 中使用 Ollama](docs/C7/8.%20在%20Cherry%20Studio%20中使用%20Ollama.md)                  | Cherry Studio + Ollama     | ✅   |
+| [7.9 使用 Obsidian 构建 RAG](docs/C7/9.%20使用%20Obsidian%20构建%20RAG.md)                                     | Obsidian + RAG             | ✅   |
 | ...                                                                                                  | ...                       | ... |
 
 **_注：所有标记（待更新）的内容，以及其他相关的内容，热忱欢迎感兴趣的开发者们 提出 issue 或者 提交 pull request，让我们一起完善这个项目！_**

@@ -1,0 +1,309 @@
+aiohappyeyeballs==2.7.1
+    # via aiohttp
+aiohttp==3.14.3
+    # via
+    #   dashscope
+    #   llama-index-core
+aiosignal==1.4.0
+    # via aiohttp
+aiosqlite==0.22.1
+    # via llama-index-core
+annotated-doc==0.0.5
+    # via typer
+annotated-types==0.8.0
+    # via pydantic
+anyio==4.14.2
+    # via
+    #   httpx
+    #   openai
+attrs==26.1.0
+    # via aiohttp
+banks==2.5.0
+    # via llama-index-core
+beautifulsoup4==4.15.0
+    # via llama-index-readers-file
+certifi==2026.7.22
+    # via
+    #   dashscope
+    #   httpcore
+    #   httpx
+    #   requests
+cffi==2.1.1 ; platform_python_implementation != 'PyPy'
+    # via cryptography
+charset-normalizer==3.5.1
+    # via requests
+click==8.5.0
+    # via nltk
+cloudpickle==3.1.2
+    # via joblib
+colorama==0.4.6
+    # via
+    #   griffecli
+    #   pytest
+    #   tqdm
+    #   typer
+cryptography==50.0.1
+    # via dashscope
+dashscope==1.27.2
+    # via llama-index-embeddings-dashscope
+dataclasses-json==0.6.7
+    # via llama-index-core
+defusedxml==0.7.1
+    # via
+    #   llama-index-readers-file
+    #   nltk
+deprecated==1.3.1
+    # via
+    #   banks
+    #   llama-index-core
+    #   llama-index-instrumentation
+dirtyjson==1.0.8
+    # via llama-index-core
+distro==1.9.0
+    # via openai
+filetype==1.2.0
+    # via
+    #   banks
+    #   llama-index-core
+frozenlist==1.8.0
+    # via
+    #   aiohttp
+    #   aiosignal
+fsspec==2026.7.0
+    # via llama-index-core
+greenlet==3.5.5
+    # via sqlalchemy
+griffe==2.2.0
+    # via banks
+griffecli==2.2.0
+    # via griffe
+griffelib==2.2.0
+    # via
+    #   griffe
+    #   griffecli
+h11==0.16.0
+    # via httpcore
+httpcore==1.0.9
+    # via httpx
+httpx==0.28.1
+    # via
+    #   dashscope
+    #   llama-index-core
+    #   ollama
+    #   openai
+httpx-sse==0.4.3
+    # via dashscope
+idna==3.19
+    # via
+    #   anyio
+    #   httpx
+    #   requests
+    #   yarl
+iniconfig==2.3.0
+    # via pytest
+jinja2==3.1.6
+    # via banks
+jiter==0.16.0
+    # via openai
+joblib==1.6.0
+    # via nltk
+linkify-it-py==2.2.0
+    # via markdown-it-py
+llama-index-core==0.14.24
+    # via
+    #   -r notebook/C7/Obsidian_RAG/requirements.in
+    #   llama-index-embeddings-dashscope
+    #   llama-index-embeddings-ollama
+    #   llama-index-llms-ollama
+    #   llama-index-llms-openai
+    #   llama-index-llms-openai-like
+    #   llama-index-readers-file
+llama-index-embeddings-dashscope==0.6.0
+    # via -r notebook/C7/Obsidian_RAG/requirements.in
+llama-index-embeddings-ollama==0.10.0
+    # via -r notebook/C7/Obsidian_RAG/requirements.in
+llama-index-instrumentation==0.6.0
+    # via llama-index-workflows
+llama-index-llms-ollama==0.11.0
+    # via -r notebook/C7/Obsidian_RAG/requirements.in
+llama-index-llms-openai==0.7.10
+    # via llama-index-llms-openai-like
+llama-index-llms-openai-like==0.8.0
+    # via -r notebook/C7/Obsidian_RAG/requirements.in
+llama-index-readers-file==0.7.0
+    # via -r notebook/C7/Obsidian_RAG/requirements.in
+llama-index-workflows==2.23.3
+    # via llama-index-core
+markdown-it-py==4.2.0
+    # via
+    #   mdit-py-plugins
+    #   rich
+    #   textual
+markupsafe==3.0.3
+    # via jinja2
+marshmallow==3.26.2
+    # via dataclasses-json
+mdit-py-plugins==0.6.1
+    # via textual
+mdurl==0.1.2
+    # via markdown-it-py
+multidict==6.7.1
+    # via
+    #   aiohttp
+    #   yarl
+mypy-extensions==1.1.0
+    # via typing-inspect
+nest-asyncio==1.6.0
+    # via llama-index-core
+networkx==3.6.1
+    # via llama-index-core
+nltk==3.10.3
+    # via llama-index-core
+numpy==2.4.6 ; python_full_version < '3.12'
+    # via
+    #   llama-index-core
+    #   pandas
+numpy==2.5.2 ; python_full_version >= '3.12'
+    # via
+    #   llama-index-core
+    #   pandas
+ollama==0.6.2
+    # via
+    #   llama-index-embeddings-ollama
+    #   llama-index-llms-ollama
+openai==2.54.0
+    # via llama-index-llms-openai
+packaging==26.3
+    # via
+    #   marshmallow
+    #   pytest
+pandas==2.3.3
+    # via llama-index-readers-file
+pillow==12.3.0
+    # via llama-index-core
+platformdirs==4.11.6
+    # via
+    #   banks
+    #   llama-index-core
+    #   textual
+pluggy==1.6.0
+    # via pytest
+prompt-toolkit==3.0.53
+    # via dashscope
+propcache==0.5.2
+    # via
+    #   aiohttp
+    #   yarl
+pycparser==3.0 ; implementation_name != 'PyPy' and platform_python_implementation != 'PyPy'
+    # via cffi
+pydantic==2.13.5
+    # via
+    #   banks
+    #   dashscope
+    #   llama-index-core
+    #   llama-index-instrumentation
+    #   llama-index-workflows
+    #   ollama
+    #   openai
+pydantic-core==2.46.5
+    # via pydantic
+pygments==2.21.0
+    # via
+    #   pytest
+    #   rich
+    #   textual
+pypdf==6.16.2
+    # via llama-index-readers-file
+pytest==9.1.1
+    # via pytest-asyncio
+pytest-asyncio==1.4.0
+    # via llama-index-embeddings-ollama
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2026.3.post1
+    # via pandas
+pyyaml==6.0.3
+    # via
+    #   dashscope
+    #   llama-index-core
+regex==2026.9.3
+    # via
+    #   nltk
+    #   tiktoken
+requests==2.34.2
+    # via
+    #   dashscope
+    #   llama-index-core
+    #   tiktoken
+rich==15.0.0
+    # via
+    #   dashscope
+    #   textual
+    #   typer
+setuptools==84.0.0
+    # via llama-index-core
+shellingham==1.5.4
+    # via typer
+six==1.17.0
+    # via python-dateutil
+sniffio==1.3.1
+    # via openai
+soupsieve==2.9.2
+    # via beautifulsoup4
+sqlalchemy==2.0.52
+    # via llama-index-core
+striprtf==0.0.26
+    # via llama-index-readers-file
+tenacity==9.1.4
+    # via
+    #   dashscope
+    #   llama-index-core
+textual==8.2.8
+    # via dashscope
+tiktoken==0.14.0
+    # via llama-index-core
+tinytag==2.3.1
+    # via llama-index-core
+tqdm==4.70.0
+    # via
+    #   llama-index-core
+    #   nltk
+    #   openai
+typer==0.27.2
+    # via dashscope
+typing-extensions==4.16.0
+    # via
+    #   aiohttp
+    #   aiosignal
+    #   anyio
+    #   beautifulsoup4
+    #   llama-index-core
+    #   llama-index-workflows
+    #   openai
+    #   pydantic
+    #   pydantic-core
+    #   pytest-asyncio
+    #   sqlalchemy
+    #   textual
+    #   typing-inspect
+    #   typing-inspection
+typing-inspect==0.9.0
+    # via
+    #   dataclasses-json
+    #   llama-index-core
+typing-inspection==0.4.4
+    # via pydantic
+tzdata==2026.3
+    # via pandas
+urllib3==2.7.0
+    # via requests
+wcwidth==0.8.3
+    # via prompt-toolkit
+websocket-client==1.9.2
+    # via dashscope
+wrapt==2.4.0
+    # via
+    #   deprecated
+    #   llama-index-core
+yarl==1.24.5
+    # via aiohttp
