@@ -109,6 +109,7 @@ While many LLM tutorials rely on GPU acceleration, this project focuses exclusiv
     - [x] [LangChain Agent](docs/C7/5.%20使用%20LangChain%20实现本地%20Agent.md) @[Youdon](https://github.com/AXYZdong)
     - [x] [LlamaIndex Agent](docs/C7/6.%20使用%20LlamaIndex%20实现本地%20Agent.md) @[Youdon](https://github.com/AXYZdong)
     - [x] [DeepSeek R1 RAG App](docs/C7/7.%20使用%20DeepSeek%20R1%20和%20Ollama%20实现本地%20RAG%20应用.md) @[Youdon](https://github.com/AXYZdong)
+    - [ ] English translations for chapters 7.8 and 7.9 (available in the Chinese navigation)
     - [ ] More to come...
 
 

@@ -1,0 +1,6 @@
+llama-index-core==0.14.24
+llama-index-llms-ollama==0.11.0
+llama-index-embeddings-ollama==0.10.0
+llama-index-readers-file==0.7.0
+llama-index-embeddings-dashscope==0.6.0
+llama-index-llms-openai-like==0.8.0
